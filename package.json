@@ -11,6 +11,7 @@
     "stop": "pm2 stop ra1",
     "restart": "pm2 restart ra1"
   },
+  
   "keywords": [
     "termux",
     "whatsapp-openai",
