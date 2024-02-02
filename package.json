@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run pm2memory",
-    "pm2memory": "pm2 start index.js --deep-monitoring --attach --name ra1 --max-memory-restart 500M",
+    "pm2memory": "node index.js",
     "stop": "pm2 stop ra1",
     "restart": "pm2 restart ra1"
   },
